@@ -1,0 +1,6 @@
+.items {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 20px;
+}

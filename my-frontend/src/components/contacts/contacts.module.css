@@ -1,0 +1,28 @@
+/********************************* CALL MESSAGE *************************/
+.callMessage {
+  color: green;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-left: 42px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  transition: 1s;
+  }
+  .callMessage:hover {
+  color: rgb(82, 188, 0);
+  /* transform: scale(1.1); */
+  transform:scale(1.1);
+  text-decoration: none;
+  }
+  /********************************* PHONE NUMBER *************************/
+  .phoneNumber {
+    color: black;
+    margin: 0 0 7px 25px;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+    width: 150px;
+  }
+  .phoneNumber:hover {
+    transform: scale(1.1);
+  }

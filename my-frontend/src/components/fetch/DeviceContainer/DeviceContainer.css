@@ -1,0 +1,56 @@
+.itemsContainer {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+.itemContainer img {
+  width: 400px;
+}
+
+.itemsContainer:hover .devices-price {
+  color: #ff00a9;
+}
+.itemsContainer:hover {
+  border: 1px solid #ff00a9;
+}
+
+.itemsImg {
+  width: 200px;
+  height: 200px;
+
+  border: 1px solid #f1e9e9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.itemsSale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #b7d334;
+  padding: 5px 10px;
+  color: white;
+}
+.itemsName {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.itemsPrice {
+  margin: 6px 0;
+  color: black;
+  font-weight: bold;
+  text-decoration: line-through #ff00a9;
+  ;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.newItemsPrice{
+ font-size: 23px;
+ color: #ff00a9;
+}

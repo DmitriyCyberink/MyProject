@@ -1,0 +1,160 @@
+
+.head__icon {
+  width: 30px;
+  height: 30px;
+}
+
+/************ container ****************/
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/************     HEADER     **********/
+.header {
+margin-top: 15px;
+}
+.headerInner {
+  display: flex;
+  /* border-bottom: 1px solid black; */
+}
+.headerLogo{
+  cursor: pointer;
+  transition: 1s;
+}
+.headerLogo:hover {
+  transform: scale(1.1);
+  transform-origin: top right;
+}
+/************************************ INFO ************************************/
+.callMessage {
+color: green;
+text-decoration: underline;
+font-size: 12px;
+margin-left: 42px;
+padding-bottom: 3px;
+cursor: pointer;
+transition: 1s;
+}
+.callMessage:hover {
+color: rgb(82, 188, 0);
+/* transform: scale(1.1); */
+/* transform:scale(1.1); */
+text-decoration: none;
+}
+.phoneNumber {
+  color: black;
+  margin: 0 0 7px 25px;
+  font-size: 20px;
+  transition: 1s;
+  cursor: pointer;
+  width: 150px;
+}
+.phoneNumber:hover {
+  transform: scale(1.1);
+}
+/************     NAV    **********/
+.nav{
+background: black;
+width: auto;
+font-size: 15px;
+text-align: center;
+margin-top: 10px;
+
+}
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 14px;
+  transition: 1s;
+}
+.navLink:hover{
+background: #d600b2a7;
+transform: scale(1.02);
+
+}
+/**************    searching  *************/
+.searchBar{
+  width: 100%;
+  max-width: 450px;
+  max-height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-left: 40px;
+  margin-top: 13px;
+  padding-left: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.searchBar input {
+  width: 400px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 10px 37px 10px 15px;
+  outline: none;
+  font-size: 15px;
+  height: 29px;
+  transition: 1ms;
+  color: rgba(72, 69, 69, 0.809);
+}
+.searchBar span {
+  position: absolute;
+  left: 20px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(51, 51, 51, 0.688);
+  transition: 0.5s;
+}
+
+.searchBar input:valid ~ span,
+.searchBar input:focus ~ span{
+  color: #d600b3;
+transform: translateX(10px) translateY(-7px);
+font-size: 1em;
+margin: 35px 56px 70px auto;
+background: white;
+max-width: 145px;
+max-height: 30px;
+}
+.searchButtonIcon img {
+  width: 18px;
+}
+.searchButtonIcon {
+  padding-top: 5px;
+  background: transparent;
+  border-radius: 30px;
+  border: 3px solid rgba(6, 6, 6, 0);
+  position: absolute;
+  right: 38px;
+  cursor: pointer;
+}
+  
+
+
+/***********************************  BASKET  *************************************/
+.headerInfo{
+  width: 200;
+  height: 50px;
+  display: flex;
+  transition: 2s;
+  margin-left: 345px;
+}
+
+.headerBasket:hover{
+transform: scale(1.2);
+
+}
+.headerBasket img{
+  width: 50px;
+  height: 50px;
+} */
+
+.flagLanguage {
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+

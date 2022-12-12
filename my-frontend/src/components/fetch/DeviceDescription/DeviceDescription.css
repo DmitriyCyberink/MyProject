@@ -1,0 +1,41 @@
+.itemContainer{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* .device-description{
+    width: 100px;
+    height: 200px;
+} */
+
+.itemPrice {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.itemName {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.itemButton {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+
+.itemButton:hover{
+    background: #ff00a9;
+    color: white;
+    border: 1px solid transparent;
+
+}
